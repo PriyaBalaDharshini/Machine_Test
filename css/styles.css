@@ -263,3 +263,102 @@ section {
 .box-content .box-text h3 {
     margin-bottom: 10px;
 }
+
+.form-box {
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    flex-direction: column;
+}
+
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 40px;
+}
+
+.input input {
+    height: 35px;
+    width: 70%;
+    padding: 10px;
+}
+
+.password {
+    height: 35px;
+    width: 100%;
+}
+
+.input button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: skyblue;
+    color: white;
+}
+
+footer {
+    background-color: #555;
+    color: white;
+    padding: 40px;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.footer-list h4 {
+    margin-bottom: 20px;
+}
+
+.footer-list ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-register {
+    background-color: rgb(34, 179, 237);
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+
+.footer-login {
+    background-color: white;
+    border: 1px solid rgb(34, 179, 237);
+    color: rgb(34, 179, 237);
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+hr {
+    margin: 40px 0;
+    border: 1px solid white;
+}

@@ -180,21 +180,22 @@
                         <h3>
                             Sign up for a free account
                         </h3>
-                        <div class="input">
-                            <input type="text" placeholder="First name">
-                            <input type="text" placeholder="Last name">
-                        </div>
-                        <div class="input">
-                            <input type="text" placeholder="Email address">
-                            <input type="text" placeholder="Phone number">
-                        </div>
-                        <div class="input password">
-                            <input type="text" placeholder="Password">
-                        </div>
-                        <div class="input">
-                            <button>Register</button>
-                        </div>
-
+                        <form id="registrationForm">
+                            <div class="input">
+                                <input type="text" id="firstName" placeholder="First name">
+                                <input type="text" id="lastName" placeholder="Last name">
+                            </div>
+                            <div class="input">
+                                <input type="text" id="email" placeholder="Email address">
+                                <input type="text" id="phone" placeholder="Phone number">
+                            </div>
+                            <div class="input password">
+                                <input type="text" id="password" placeholder="Password">
+                            </div>
+                            <div class="input">
+                                <button type="submit">Register</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -249,6 +250,7 @@
         </div>
 
     </footer>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

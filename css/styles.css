@@ -7,10 +7,14 @@
     font-family: "Poppins", serif;
 }
 
+body {
+    background-color: rgb(215, 213, 213);
+}
+
 
 nav {
     height: 60px;
-    background-color: #f2e8e8;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,5 +82,84 @@ nav {
 .signup {
     background-color: rgba(0, 0, 255, 0.582);
     border: 2px solid rgba(0, 0, 255, 0.258);
+    color: white;
+}
+
+.hero-section {
+    width: 100%;
+
+}
+
+.intro {
+    position: relative;
+}
+
+.intro img {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.intro-text {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.intro-text button {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.details {
+    padding: 0 90px;
+    background-color: white;
+}
+
+.details h1 {
+    padding: 50px 0px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.details .details-text {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.text-left,
+.text-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-content {
+    margin-bottom: 50px;
+}
+
+.text-content h3 {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.text-content p {
+    padding-bottom: 20px;
+}
+
+.text-content button {
+    background-color: skyblue;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 10px;
     color: white;
 }

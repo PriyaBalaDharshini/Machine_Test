@@ -139,14 +139,6 @@ section {
     display: flex;
     align-items: center;
     gap: 50px;
-    flex-wrap: nowrap;
-}
-
-.text-content {
-    padding: 20px;
-    max-width: 450px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
 }
 
 .text-left,
@@ -373,11 +365,4 @@ footer {
 hr {
     margin: 40px 0;
     border: 1px solid white;
-}
-
-.error-message {
-    color: red;
-    font-size: 12px;
-    display: none;
-
 }

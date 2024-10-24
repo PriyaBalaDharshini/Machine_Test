@@ -12,8 +12,14 @@ registrationForm.addEventListener('submit', function (event) {
     const password = document.getElementById('password').value.trim();
 
 
+
     if (!firstName || !lastName || !email || !phone || !password) {
         alert('Please fill in all the fields.');
+        return;
+    }
+
+    if (password.length < 8) {
+        alert('Password length must be at least 8 characters.');
         return;
     }
 
